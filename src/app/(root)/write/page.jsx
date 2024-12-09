@@ -7,10 +7,10 @@ import "react-quill/dist/quill.bubble.css";
 import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
 import ReactQuill from "react-quill";
-import { constructFileUrl } from "@/utils/lib";
+import { constructFileUrl } from "@/app/(root)/utils/lib";
 import { uploadFile } from "@/libs/actions";
-import {appwriteConfig} from "@/utils/appwrite";
-import { createAdminClient } from "@/utils/utils";
+import {appwriteConfig} from "@/app/(root)/utils/appwrite";
+import { createAdminClient } from "@/app/(root)/utils/utils";
 import { ID } from "node-appwrite";
 
 

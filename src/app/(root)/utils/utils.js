@@ -1,5 +1,5 @@
 import { Account, Avatars, Client, Databases, Storage } from "node-appwrite";
-import { appwriteConfig } from "@/utils/appwrite";
+import { appwriteConfig } from "@/app/(root)/utils/appwrite";
 
 export const createAdminClient = async () => {
     const client = new Client()

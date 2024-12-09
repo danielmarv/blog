@@ -1,6 +1,6 @@
 
-import { createAdminClient } from "@/utils/utils";
-import {appwriteConfig} from "@/utils/appwrite";
+import { createAdminClient } from "@/app/(root)/utils/utils";
+import {appwriteConfig} from "@/app/(root)/utils/appwrite";
 import { ID } from "node-appwrite";
 
 export const uploadFile = async (file) => {
